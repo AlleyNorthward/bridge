@@ -1,0 +1,25 @@
+# ioj 编译产物（datastructure/build/<id>/ 每个题目一个目录）
+datastructure/build/*/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.class
+*.pdb
+*.ilk
+
+# TypeScript / Node
+dist/
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.swp
