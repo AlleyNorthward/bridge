@@ -1,25 +1,70 @@
 # ioj 编译产物（datastructure/build/<id>/ 每个题目一个目录）
 datastructure/build/*/
 
-# 编译产物
+# 测试数据（题目 test 目录下的 .in/.out 不进版本库，仅保留在本地）
+datastructure/algorithm/**/test/*.in
+datastructure/algorithm/**/test/*.out
+
+# 编译 / 构建产物
 *.o
 *.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
 *.exe
 *.class
+*.jar
 *.pdb
 *.ilk
+*.exp
+*.gch
+*.dSYM/
+build/
+dist/
+out/
+target/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.tsbuildinfo
 
 # TypeScript / Node
-dist/
 node_modules/
+.npm/
+yarn-error.log
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 日志 / 临时 / 备份
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+.cache/
 
 # 编辑器 / 系统
 .vscode/
 .idea/
+.vs/
+*.user
+*.suo
 Thumbs.db
+desktop.ini
 .DS_Store
-*.swp
