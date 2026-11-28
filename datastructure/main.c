@@ -27,5 +27,6 @@ int main(){
   int* arr = malloc(sizeof(int) * n);
   printf("%d", search(arr, n, target));
   free(arr);
+
   return 0;
 }
